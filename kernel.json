@@ -1,17 +1,19 @@
 {
-  "display_name": "PySpark 2.0",
+"display_name": "PySpark 2.0",
   "language": "python",
   "argv": [
-    "python",
+    "/home/sprint3r/.conda/envs/sparkling/bin/python",
     "-m",
-    "IPython.kernel",
+    "ipykernel",
     "-f",
     "{connection_file}"
   ],
   "env": {
     "SPARK_HOME": "/opt/spark",
-    "PYTHONPATH": "/opt/spark/python/:/opt/spark/python/lib/py4j-0.10.3-src.zip",
+    "PYTHONPATH": "/opt/spark/python/:/opt/spark/python/lib/py4j-0.10.4-src.zip",
+    "PYSPARK_PYTHON": "/home/sprint3r/.conda/envs/sparkling/bin/python",
     "PYTHONSTARTUP": "/opt/spark/python/pyspark/shell.py",
     "PYSPARK_SUBMIT_ARGS": "--master local[*] pyspark-shell"
   }
 }
+
