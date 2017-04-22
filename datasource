@@ -1,0 +1,3 @@
+curl https://transfer.sh/GicBc/GeoIPOriginal.csv -o GeoIPOriginal.csv
+curl https://transfer.sh/o599I/small-dataset.tsv -o small-dataset.tsv
+
